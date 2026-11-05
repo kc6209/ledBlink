@@ -6,6 +6,7 @@ pinMode(ledPin2,OUTPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-
+digitalWrite(ledPin,HIGH);
+digitalWrite(ledPin,LOW);
+delay(500);
 }
